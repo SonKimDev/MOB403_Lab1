@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bai2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thread trong Android"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tvTitle"
+        />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgAndroid"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/imgAndroid"
+        android:id="@+id/tvMessage"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/tvMessage"
+        android:layout_centerHorizontal="true"
+        android:text="Load Image"
+        android:id="@+id/btnLoad"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/btnLoad"
+        android:layout_centerHorizontal="true"
+        android:text="Bài 1"
+        android:id="@+id/btnNext"
+        />
+
+</RelativeLayout>
